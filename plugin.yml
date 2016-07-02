@@ -6,7 +6,7 @@ api: [2.0.0]
 commands:
     stime:
         description: "Set the time."
-        usage: "/stime <number>"
+        usage: "/stime <day|night|sunrise|sunset|number>"
         permission: stime.stime
         aliases: [t]
 permissions:
