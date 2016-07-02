@@ -1,0 +1,15 @@
+name: ShortTime
+author: HimbeersaftLP
+main: HimbeersaftLP\ShortTime\main
+version: 1.0.0
+api: [2.0.0]
+commands:
+    stime:
+        description: "Set the time."
+        usage: "/stime <number>"
+        permission: stime.stime
+        aliases: [t]
+permissions:
+    stime.stime:
+        description: "Permission for /stime"
+        default: op
