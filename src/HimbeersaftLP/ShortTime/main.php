@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\TranslationContainer;
 use pocketmine\level\Level;
 
-class Main extends PluginBase implements Listener{
+class main extends PluginBase implements Listener{
      
      public function onEnable(){
           $this->getServer()->getPluginManager()->registerEvents($this,$this);
